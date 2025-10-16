@@ -1,0 +1,89 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# User-specific Xcode files
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+
+# Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+Packages/
+Package.pins
+Package.resolved
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# SPM Artifacts
+.swiftpm/xcode/package.xcworkspace/
+.swiftpm/config/registries.json
+.swiftpm/config/permissions.json
+
+# Misc
+*.swp
+*.lock
+*.tmp
+*.bak
+*.orig
+*.idea/
+*.iml
+
+# Firebase / Google
+GoogleService-Info.plist
+
+# App Center / Crashlytics / etc.
+*.log
+*.crash
+
+# Environment files
+.env
+.env.*
+
+# Xcode Cloud
+.xcresults/
+
+# Output folders
+output/
+artifacts/
+
+# Generated code
+Generated/
+*.generated.swift
+
+# Simulator device data
+*.simruntime
+*.simdevice
+
