@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonDidTap(_ sender: Any) {
+        print("Clicked")
         // Проверяем, какая сейчас иконка
         let isMoon = skyImageView.image == UIImage(systemName: "moon")
         
@@ -29,8 +30,11 @@ class ViewController: UIViewController {
         let newIcon = isMoon ? "sun.max.fill" : "moon"
         let newColor = isMoon ? UIColor.systemYellow : UIColor.gray
         
-        // Анимация плавного перехода
+        skyImageView.image = UIImage(systemName: newIcon)
+            skyImageView.tintColor = newColor
         
+        // Анимация плавного перехода
+        /*
         UIView.transition(with: skyImageView,
                           duration: 0.5,
                           options: .transitionCrossDissolve,
@@ -39,6 +43,7 @@ class ViewController: UIViewController {
                               self.skyImageView.tintColor = newColor
                           },
                           completion: nil)
+         */
     }
 }
 
