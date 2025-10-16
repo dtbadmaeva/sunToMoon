@@ -15,9 +15,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         skyImageView.image = UIImage(systemName: "moon")
+        skyImageView.tintColor = .gray
+        changeButton.tintColor = .green
         // Do any additional setup after loading the view.
     }
-
 
 }
 
